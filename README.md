@@ -61,9 +61,12 @@ REST API for DiversityCollection database
 				'UnitDescription': ,
 				'DisplayOrder': ,
 				'DataWithholdingReason': ,
-				'IdentificationUnitAnalysis': {
-					'AnalysisResult': 
-				},
+				'IdentificationUnitAnalyses': [
+					{
+						'AnalysisResult': 
+					},
+					[...] more IdentificationUnitAnalyses
+				],
 				'Identifications': [
 					{
 						'TaxonomicName': ,
