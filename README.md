@@ -5,7 +5,7 @@ REST API for DiversityCollection database
 
 ### json structure
 
-`
+```
 'CollectionSpecimens': [
 	{
 		'CollectionSpecimenID': ,
@@ -110,7 +110,6 @@ REST API for DiversityCollection database
 	},
 	[...] # more CollectionSpecimens
 ]
-
-`
+```
 
 
